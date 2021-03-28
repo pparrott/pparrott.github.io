@@ -78,7 +78,7 @@ def write_html_recipe(recipe):
             list_start.append(content_tag)
         return  
 
-    soup = import_html_template('html_template.html')
+    soup = import_html_template('recipe_template.html')
     insertion_point = soup.select('.Placeholder')[0]
 
     function_map = {
