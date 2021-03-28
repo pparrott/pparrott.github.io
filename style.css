@@ -1,3 +1,65 @@
 body {
-    background-color: antiquewhite;
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+
+.header {
+    font-size: 200%;
+    padding: 50px 20px;
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+.line {
+    border-top: 1px dotted #333333;
+    margin-top: 5px;
+}
+
+main {
+    height: 100%;
+}
+
+.grid{
+    margin: 0 auto;
+    margin-top: 0.5em;
+    padding: 0 20px;
+    max-width: 980px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    column-gap: 5px;
+}
+
+nav { 
+    background-color: slategray;
+    display: flex;
+    align-items: left;
+    
+}
+
+nav ul {
+    text-align: left;
+    padding-left: 3em;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav a {
+    color: blanchedalmond;
+}
+
+.content {
+    background-color: black;
+    color: blanchedalmond;
+    padding-left: 1em;
+}
+
+.content a {
+    color: inherit;
 }
